@@ -1,0 +1,55 @@
+/* Denna fil skall innehålla din CSS kod */
+#container {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'nv nv nv nv'
+    'sec sec sec sec'
+    'sec sec sec sec'
+    'ft ft ft ft' ;
+    margin: auto;
+    gap: 5px;
+    background-color: brown;
+    padding: 5px;
+    grid-template-rows: 3fr 0.75fr 5fr 5fr 1fr;
+    border-radius: 2px; 
+}
+    
+header{
+    grid-area: hd;
+    background-color: beige;
+}
+
+nav{
+    grid-area: nv;
+    background-color: beige;
+}
+
+.nav {
+    width: 10px black;
+    display: flex;
+    align-items: stretch;   
+}
+
+.nav div { 
+    width: 340px;
+    height: 60px;
+    background-color: none;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 100px;
+}   
+
+section {
+    grid-area: sec;
+    background-color: beige;
+    text-align: center;
+    padding: 90px;
+}
+
+footer {
+    grid-area: ft;
+    background-color: beige;    
+}
+
