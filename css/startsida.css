@@ -10,24 +10,28 @@
     'ft ft ft ft' ;
     margin: auto;
     gap: 5px;
-    background-color: brown;
-    padding: 5px;
+    background-color: #d7b7b3; 
     grid-template-rows: 3fr 0.75fr 5fr 5fr 1fr;
     border-radius: 2px; 
+    padding: 5px
 }
     
-header{
+header {
     grid-area: hd;
-    background-color: beige;
+    background-color: #e74c3c;
+    text-align: center;
+    padding: 10px;
+    font-size: 100px;
+
 }
 
-nav{
+nav {
     grid-area: nv;
-    background-color: beige;
+    background-color: #e74c3c;
 }
 
 .nav {
-    width: 10px black;
+    width: 10px rgb(255, 255, 255);
     display: flex;
     align-items: stretch;   
 }
@@ -38,18 +42,29 @@ nav{
     background-color: none;
     border-radius: 5px;
     text-align: center;
-    line-height: 100px;
+    line-height: 55px;
 }   
 
 section {
     grid-area: sec;
-    background-color: beige;
+    background-image: url("../img/gym.jpg");
     text-align: center;
-    padding: 90px;
+    padding: 115px;
+    font-size: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 footer {
     grid-area: ft;
-    background-color: beige;    
+    background-color: #e74c3c;   
+    text-align: left;
+    line-height: 3px;
 }
 
+#appikon {
+    height: 120px;
+    position: absolute;
+    left: 2%;
+
+}
