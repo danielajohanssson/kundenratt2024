@@ -10,36 +10,44 @@
     'ft ft ft ft' ;
     margin: auto;
     gap: 5px;
-    background-color: #d7b7b3; 
+    background-color:  #3F1410; 
     grid-template-rows: 3fr 0.75fr 5fr 5fr 1fr;
-    border-radius: 2px; 
-    padding: 5px
+    border-radius: 2%; 
+    padding: 5px;
 }
     
 header {
     grid-area: hd;
-    background-color: #e74c3c;
+    background-color: #e98175
+    ;
     text-align: center;
     padding: 10px;
-    font-size: 115px;
+    font-size: 105px;
 }
 
 #menyikon {
-    height: 85px;
+    height: 75px;
     position: absolute;
     right: 3%;
-
 }
 
 nav {
     grid-area: nv;
     background-color: #e74c3c;
+    align-items: stretch;
+}
+
+#sökikon {
+    height: 45px;
+    position: absolute;
+    left: 3%;
+
 }
 
 .nav {
     width: 10px rgb(255, 255, 255);
     display: flex;
-    align-items: stretch;   
+    align-items: stretch;
 }
 
 .nav div { 
@@ -66,12 +74,13 @@ section {
 footer {
     grid-area: ft;
     background-color: #e74c3c;   
-    text-align: 100px;
+    text-align: 100px; 
     line-height: 55px;
+   
 }
 
 #appikon {
-    height: 120px;
+    height: 75px;
     position: absolute;
     left: 3%;
 }
