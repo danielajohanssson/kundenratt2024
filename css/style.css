@@ -13,21 +13,25 @@
     background-color:  #3F1410; 
     grid-template-rows: 3fr 0.75fr 5fr 5fr 1fr;
     padding: 5px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 a {
     text-decoration: dashed;
     color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
 }
     
 header {
     grid-area: hd;
-    background-color: #e74c3c;
+    background-color: #AF3A2D;
     text-align: center;
     padding: 10px;
     font-size: 115px;
     color: #3F1410;
-} 
+    font-weight: 600;
+}   
 
 #menyikon {
     height: 130px;
@@ -41,7 +45,7 @@ nav {
     grid-area: nv;
     background-color: #e74c3c;
     align-items: stretch;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #sökikon {
@@ -56,6 +60,7 @@ nav {
     width: 10px rgb(255, 255, 255);
     display: flex;
     align-items: stretch;
+    color: #ffffff;
 }
 
 .nav div { 
@@ -69,6 +74,7 @@ nav {
 #startsec {
     grid-area: sec;
     background-image: url("../img/gym.jpg");
+    font-weight: 600;
     text-align: center;
     color: white;
     text-decoration: 10px; 
@@ -76,21 +82,22 @@ nav {
     font-size: 100px;
     background-size: cover;
     background-repeat: no-repeat;
-    stroke-width: 10px;
-    stroke: #3F1410;
+    text-shadow: #3F1410;
+    -webkit-text-stroke: 4px #3F1410;
 }
 
 footer {
     grid-area: ft;
     background-color: #e74c3c;   
     text-align: 100px; 
-    line-height: 40px;
+    line-height: 30px;
     padding: 15px;
-    font-size: 20px;
-    color: #3F1410;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 500;
 } 
 
-#appikon {
+#logga {
     height: 135px;  
     position: absolute;     
     left: 3%;
