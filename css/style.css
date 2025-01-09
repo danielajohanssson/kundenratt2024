@@ -102,5 +102,19 @@ footer {
     position: absolute;     
     left: 3%;
     padding-top: 0px;
+    gap: 15px;
 }
 
+#cardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+section {
+    border: 2px solid #e74c3c;
+    width: 150px;
+    height: 350px;
+
+}
