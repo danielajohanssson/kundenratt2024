@@ -53,7 +53,6 @@ nav {
     position: absolute;
     left: 3%;
     margin: 6px;
-
 }
 
 .nav {
@@ -105,26 +104,19 @@ footer {
 }
 
 #cardWrapper {
-    grid-area: sec;
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
-    flex-direction: row;
-    grid-area: sec;
-    gap: 90px;  
+    gap: 15px;
     margin: auto;
-    justify-content: center 
-    background-image: url("../img/gym.jpg");
-    font-weight: 600;
-    text-align: center;
-    color: white;
-    text-decoration: 10px; 
-    padding: 115px;
-    font-size: 100px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-shadow: #3F1410;
-    -webkit-text-stroke: 4px #3F1410;
-    border: 1px solid #e74c3c;
+    justify-content: center;
+}
+
+#section {
+    border: 2px solid #e74c3c;
     width: 200px;
     height: 400px;
+    display: flex;
+    flex-direction: row;
+
 }
+
