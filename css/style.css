@@ -14,32 +14,41 @@
     grid-template-rows: 3fr 0.75fr 5fr 5fr 1fr;
     padding: 5px;
 }
+
+a {
+    text-decoration: dashed;
+    color: #ffffff;
+}
     
 header {
     grid-area: hd;
-    background-color: #e98175;
+    background-color: #e74c3c;
     text-align: center;
     padding: 10px;
-    font-size: 105px;
+    font-size: 115px;
+    color: #3F1410;
 } 
 
 #menyikon {
-    height: 80px;
+    height: 130px;
     position: absolute;
     right: 3%;
-    margin-bottom: 900px;
+    margin: 0px;
+    padding: 0px;
 }
 
 nav {
     grid-area: nv;
     background-color: #e74c3c;
     align-items: stretch;
+    font-size: 20px;
 }
 
 #sökikon {
     height: 45px;
     position: absolute;
     left: 3%;
+    margin: 6px;
 
 }
 
@@ -67,19 +76,24 @@ nav {
     font-size: 100px;
     background-size: cover;
     background-repeat: no-repeat;
+    stroke-width: 10px;
+    stroke: #3F1410;
 }
 
 footer {
     grid-area: ft;
     background-color: #e74c3c;   
     text-align: 100px; 
-    line-height: 55px;
-   
+    line-height: 40px;
+    padding: 15px;
+    font-size: 20px;
+    color: #3F1410;
 } 
 
 #appikon {
-    height: 115px;
-    position: absolute; 
+    height: 135px;  
+    position: absolute;     
     left: 3%;
+    padding-top: 0px;
 }
 
