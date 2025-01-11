@@ -70,6 +70,11 @@ nav {
     line-height: 55px;
 }   
 
+#halso {
+    grid-area: sec;
+    display: flex;
+}
+
 #startsec {
     grid-area: sec;
     background-image: url("../img/gym.jpg");
@@ -118,38 +123,80 @@ footer {
     border: 3px solid #e74c3c;
     display: flex;
     margin: auto;
-
 }
 
 #mat {
-  width: 300px;
-  height: 400px;
-  margin: 10px;
+  width: 100x;
+  height: 300px;
+  margin: center;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   border: 3px solid #e74c3c;  
+  gap: 10px;
+}
+
+.matbild {
+    font-size: 25px;
+    padding: 40px;
+    display: flex;
+    gap: 200px;
+    margin: center;
+    justify-content: center 
 }
 
 #food {
     text-align: center;
     color: #ffffff;
     padding: 3px;
-    font-size: 40px;
+    font-size: 25px;
+    margin: center;
     
 }
 
+
+
 #gåmednu {
+    grid-area: sec;
     background-image: url("../img/fyverkerier.jpg");
-    color: white;
     font-weight: 600;
-    text-decoration: 10px; 
-    font-size: 90px;
-    text-shadow: #3F1410;
     text-align: center;
+    color: white;
+    text-decoration: 10px; 
+    padding: 140px;
+    font-size: 100px;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 140px;
     text-shadow: #3F1410;
     -webkit-text-stroke: 4px #3F1410;
 }
+
+textarea {     
+    text-align: center;
+    grid-area: ft;
+    background-color: #157132;   
+    text-align: 100px; 
+    line-height: 15px;
+    font-size: 32px;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: 600;       
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 150px;
+    height: 15px;
+}          
+
+#footerbackground {
+    padding: 3px;
+}
+
+#sec1 {
+    display: flex;
+    text-align: center;
+    padding: 40px;
+
+    gap: 200px;
+    margin: center;
+    justify-content: center 
+}
+
