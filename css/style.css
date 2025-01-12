@@ -14,7 +14,6 @@
     grid-template-rows: 3fr 0.75fr 5fr 5fr 1fr;
     padding: 5px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 }
 
 a {
@@ -207,7 +206,7 @@ textarea {
 
 .cardWrapper {
     display: flex;
-    gap: 33px;
+    gap: 31px;
     flex-wrap: nowrap;  
     margin: 20px auto;
     background-size: cover;
@@ -229,7 +228,7 @@ textarea {
     text-align: center;
     border-radius: 20px;
     display: flex;
-    margin: 8px;
+    margin: 10px;
     padding: 1px;
     justify-content: center;
     color: #ffffff;
