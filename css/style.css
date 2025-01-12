@@ -78,12 +78,17 @@ nav {
     text-align: center;
     color: white;
     text-decoration: 10px; 
-    padding: 95px;
+    padding: 90px;
     font-size: 100px;
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: #3F1410;
     -webkit-text-stroke: 4px #3F1410;
+}
+
+h1 {
+    font-size: 100px;
+
 }
 
 footer {
