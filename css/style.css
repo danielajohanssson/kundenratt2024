@@ -191,7 +191,11 @@ textarea {
     justify-content: center
 }
 
-
+.card:hover {
+    height: 325px;
+    width: 225px;
+    filter: grayscale();
+}
 
 .card {
     border: 3px solid #e74c3c;
