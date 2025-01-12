@@ -70,11 +70,6 @@ nav {
     line-height: 55px;
 }   
 
-#halso {
-    grid-area: sec;
-    display: flex;
-}
-
 #startsec {
     grid-area: sec;
     background-image: url("../img/gym.jpg");
@@ -108,35 +103,46 @@ footer {
     padding-top: 0px;
 }
 
-#mat {
-  width: 100x;
-  height: 300px;
-  margin: center;
-  display: flex;
-  flex-direction: row;
-  border: 3px solid #e74c3c;  
-  gap: 10px;
-}
-
-.matbild {
-    font-size: 25px;
-    padding: 40px;
+.mat {
     display: flex;
-    gap: 200px;
-    margin: center;
-    justify-content: center 
+    gap: 30px;
+    flex-wrap: nowrap;  
+    margin: 20px auto;
+    background-size: cover;
+    justify-content: center
 }
 
-#food {
+.img {
+    border: 3px solid #e74c3c;
+    width: 230px;
+    height: 330px;
+    background-size: cover;
+    background-position: center;
     text-align: center;
-    color: #ffffff;
-    padding: 3px;
-    font-size: 25px;
-    margin: center;
-    
+    border-radius: 20px;
+    display: flex;
+    margin: 8px;
+    padding: 1px;
+    justify-content: center;
+    color: #e74c3c;
+    font-size: 40px;
+    text-shadow: 0px 0px 30px#000000;
+    -webkit-text-stroke: 2px #000000;
 }
 
+.img:hover {
+    height: 325px;
+    width: 225px;
+    filter: grayscale();
+}
 
+.img1 {
+    background-image: url("../img/healthy\ food.jpg");
+}
+
+.img2 {
+    background-image: url("../img/unhealthy\ food.jpg");
+}
 
 #gåmednu {
     grid-area: sec;
