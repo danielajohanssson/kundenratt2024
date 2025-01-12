@@ -74,21 +74,20 @@ nav {
 #startsec {
     grid-area: sec;
     background-image: url("../img/gym.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 100px;
     font-weight: 600;
     text-align: center;
     color: white;
     text-decoration: 10px; 
     padding: 90px;
-    font-size: 100px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-shadow: #3F1410;
-    -webkit-text-stroke: 4px #3F1410;
-}
-
-h1 {
-    font-size: 100px;
-
+    margin-top: 0px;
+    -webkit-text-stroke: 5px #3F1410;
+    
 }
 
 footer {
