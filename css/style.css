@@ -184,44 +184,50 @@ textarea {
 
 .cardWrapper {
     display: flex;
-    flex-wrap: wrap;   
-    gap: 15px;
+    gap: 33px;
+    flex-wrap: nowrap;  
     margin: 20px auto;
-    justify-content: center;
+    background-size: cover;
+    justify-content: center
 }
+
+
 
 .card {
     border: 3px solid #e74c3c;
-    width: 200px;
-    height: 300px;
-    padding: 20px;
+    width: 230px;
+    height: 330px;
     background-size: cover;
-    align-items: center;
-    display: flex;
-    justify-content: center;
     background-position: center;
     text-align: center;
-    font-weight: bold;
-
+    border-radius: 20px;
+    display: flex;
+    margin: 8px;
+    padding: 1px;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 28px;
+    text-shadow: 0px 0px 30px#be3e30;
+    -webkit-text-stroke: 1px #e74c3c;
 }
 
-#card1 {
+.card1 {
     background-image: url("../img/tung\ styrketräning.jpg");
 }
 
-#card2 {
-    background-image: url("../img/dumbell\ programm.jpg");
+.card2 {
+    background-image: url("../img/dumbbell\ programm.jpg");
 }
 
-#card3 {
+.card3 {
     background-image: url("../img/kondition.jpg")
 }
 
-#card4 {
+.card4 {
     background-image: url("../img/pilates.jpg");
 }
 
-#card5 {
-    background-image: url("../img/pt\ pass.jpg");
+.card5 {
+    background-image: url("../img/PT\ träning.jpg");
 }
 
